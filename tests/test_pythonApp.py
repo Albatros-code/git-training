@@ -27,6 +27,10 @@ class TestAnimal(TestCase):
             self.a.make_sound()
             mocked_print.assert_called_with('test_name makes "test_sound"')
 
+    def test_seventh__one(self):
+        # added some comment here
+        pass
+
     def test_animal_has_make_sound_method(self):
         with patch('pythonApp.Animal.make_sound') as mocked_make_sound:
             mocked_make_sound.return_value = 'returnedValue'
