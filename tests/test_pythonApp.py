@@ -25,6 +25,13 @@ class TestAnimal(TestCase):
         # merge conflict
         pass
 
+    def test_sixth__two(self):
+        # adding longer
+        # description so there
+        # will be no
+        # merge conflict
+        pass
+
 
     def test_animal_creation(self):
         self.assertEqual(self.a.name, 'test_name')
