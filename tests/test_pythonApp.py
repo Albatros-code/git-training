@@ -9,6 +9,9 @@ class TestAnimal(TestCase):
     def setUp(self):
         self.a = Animal('test_name', 'test_sound')
 
+    def test_second(self):
+        pass
+
     def test_animal_creation(self):
         self.assertEqual(self.a.name, 'test_name')
         self.assertEqual(self.a.sound, 'test_sound')
