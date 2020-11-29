@@ -18,6 +18,14 @@ class TestAnimal(TestCase):
     def test_fourth__one(self):
         pass
 
+    def test_fifth__two(self):
+        # adding longer
+        # description so there
+        # will be no
+        # merge conflict
+        pass
+
+
     def test_animal_creation(self):
         self.assertEqual(self.a.name, 'test_name')
         self.assertEqual(self.a.sound, 'test_sound')
